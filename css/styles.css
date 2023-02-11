@@ -531,13 +531,17 @@ footer .container {
     background: #FFFFFF;
 }
 
-.project-card-link {}
+.project-card-link {
+    display: block
+}
 
-.project-card-link:hover .project-content {
+.project-card-link:is(:hover, :focus) .project-content {
     border-top: none;
-    border: 0.5px solid #F4F4FD;
+    border: 1px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+
 
 .project-content {
     box-sizing: border-box;
