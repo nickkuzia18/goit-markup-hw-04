@@ -357,8 +357,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #4D5AE5;
+    background-color: var(--primary-action-color);
+}
 
+.team-social-link:is(:hover, :focus) {
+    background-color: var(--hover-action-color);
 }
 
 .team-social-icon {
