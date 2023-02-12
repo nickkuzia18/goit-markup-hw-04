@@ -30,6 +30,7 @@ img {
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
     color: var(--main-brand-color);
+    margin: 0;
 }
 
 .container {
@@ -537,8 +538,7 @@ footer .container {
 }
 
 .project-card-link:is(:hover, :focus) .project-content {
-    border-top: none;
-    border: 1px solid #F4F4FD;
+    border-color: #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
