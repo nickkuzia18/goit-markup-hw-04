@@ -409,8 +409,8 @@ body {
 }
 
 .client-link:is(:hover, :focus) {
-    border-color: #404BBF;
-    color: #404BBF;
+    border-color: var(--hover-action-color);
+    color: var(--hover-action-color);
 }
 
 .client-logo {
